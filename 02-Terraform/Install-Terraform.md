@@ -25,10 +25,13 @@ export AWS_DEFAULT_REGION="us-west-2"
 ```
 
 ## Configure Terraform on Windows
+```
 az login
 az account list
 az account set --subscription="SUBSCRIPTION_ID"
+```
 
+```
 terraform {
   required_providers {
     azurerm = {
@@ -37,9 +40,12 @@ terraform {
     }
   }
 }
+```
 
 # Configure the Microsoft Azure Provider
+```
 provider "azurerm" {
   features {}
   subscription_id = "00000000-0000-0000-0000-000000000000"
 }
+```
