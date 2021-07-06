@@ -45,6 +45,7 @@ git push github-origin master
 - Push to public repo (Github)
 ```
 git checkout master
+git merger am1
 del .gitignore; copy .gitignore-github .gitignore
 git pull github-origin master; git add *; git commit -am "-"; git push github-origin master
 ```
