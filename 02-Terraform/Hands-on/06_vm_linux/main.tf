@@ -165,3 +165,12 @@ resource "azurerm_linux_virtual_machine" "linuxvm" {
     environment = "production"
   }
 }
+
+
+resource "azuread_user" "user" {
+  count               = 3
+  user_principal_name = "ating-${count.index}@atintrainermct2gmail.onmicrosoft.com"
+  display_name        = "Atin Gupta${count.index}"
+  mail_nickname       = "atingupta${count.index}"
+  password            = "Azure@123456"
+}

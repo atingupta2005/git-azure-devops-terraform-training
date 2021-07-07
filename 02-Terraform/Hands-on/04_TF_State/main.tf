@@ -8,6 +8,7 @@ resource "azurerm_resource_group" "rg" {
   location = var.resource_group_location
 }
 
+
 // resource "azurerm_app_service_plan" "app_plan" {
 //   name                = var.app_service_plan_name
 //   location            = azurerm_resource_group.rg.location
