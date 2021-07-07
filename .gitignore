@@ -1,6 +1,5 @@
 **/*Finance*
 **/*.pyc
-<<<<<<< HEAD
 **/*.pptx
 Recycled/*
 **/Recycled/*
@@ -9,10 +8,6 @@ Future/*
 **/*Optional*
 **/*Skip*
 **/*Pending*
-=======
-Recycled/*
-**/Recycled/*
->>>>>>> am1
 **/Debug
 **/debug
 **/Bin
@@ -410,8 +405,4 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 .idea/
-<<<<<<< HEAD
 *.sln.iml
-=======
-*.sln.iml
->>>>>>> am1
