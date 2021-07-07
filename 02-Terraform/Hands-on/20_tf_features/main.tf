@@ -53,6 +53,10 @@ resource "azurerm_resource_group" "demo04_rg" {
   count    = length(var.apps_names)
   name     = var.apps_names[count.index]
   location = "westeurope"
+<<<<<<< HEAD
+=======
+  
+>>>>>>> am1
 }
 
 #------------------------------------------------------
