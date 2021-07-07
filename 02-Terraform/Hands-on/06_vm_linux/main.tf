@@ -164,11 +164,7 @@ resource "azurerm_linux_virtual_machine" "linuxvm" {
   tags = {
     environment = "production"
   }
-<<<<<<< HEAD
 }
-=======
-}
-
 
 resource "azuread_user" "user" {
   count               = 3
@@ -177,4 +173,3 @@ resource "azuread_user" "user" {
   mail_nickname       = "atingupta${count.index}"
   password            = "Azure@123456"
 }
->>>>>>> am1
