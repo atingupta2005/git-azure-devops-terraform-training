@@ -2,7 +2,7 @@
    - Attach vm to existing vnet
    - https://www.terraform.io/docs/language/state/remote-state-data.html
    - https://learn.hashicorp.com/tutorials/terraform/data-sources
-   - 
+   -
 - Functions with examples
 - Some example of Count, List, For each, if etc
 - Destroying particular resource without impacting other
