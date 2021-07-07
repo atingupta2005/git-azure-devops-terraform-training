@@ -5,9 +5,7 @@
 # }
 
 # valid for terraform version 0.14
-provider "azurerm" {
-  features {}
-}
+cd 
 
 terraform {
   required_providers {

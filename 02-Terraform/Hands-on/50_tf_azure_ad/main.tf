@@ -11,9 +11,9 @@ provider "azuread" {
 }
 
 resource "azuread_user" "user" {
-  user_principal_name = "ating@atinintellipaatgmail.onmicrosoft.com"
-  display_name        = "Atin Gupta"
-  mail_nickname       = "atingupta"
+  user_principal_name = "ram@facare9146nnacell.onmicrosoft.com"
+  display_name        = "Ramkumar Murugesan"
+  mail_nickname       = "rammur"
   password            = "Azure@123456"
 }
 
